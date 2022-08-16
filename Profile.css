@@ -1,0 +1,39 @@
+.profile  {
+    border: 1px solid rgb(230, 224, 224);
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 50px 250px;
+}
+.profile > h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.profile > hr {
+    margin: 30px;
+}
+.profile > input, h5, h4,h6, textarea, p, Button  {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.profile > input {
+    border-radius: 5px;
+}
+.save-changes {
+    margin-bottom: 30px;
+}
+.profile > input > ::placeholder {
+    margin: 5px 10px;
+}
+
+.back-icon {
+    font-size: 50px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.back-icon :hover {
+    color: blue;
+    cursor: pointer;
+}

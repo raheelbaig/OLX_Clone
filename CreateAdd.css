@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+input {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.back-icon {
+    font-size: 50px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.back-icon :hover {
+    color: blue;
+    cursor: pointer;
+}
+
